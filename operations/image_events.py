@@ -4,7 +4,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 import os
 
-images = ["events/media/images/placeholder.png"]
+images = ["operations/media/images/placeholder.png"]
 
 def display_image_in_window():
     img_index = random.randint(0, len(images) - 1)

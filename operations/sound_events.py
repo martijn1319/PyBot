@@ -26,4 +26,4 @@ def play_distorted_audio(file_path, gain=2.0, threshold=0.5):
         stream.write(distorted_audio)
 
 # Example usage
-play_distorted_audio('/events/media/audio/test.wav', gain=2.0, threshold=0.5)
+play_distorted_audio('/operations/media/audio/test.wav', gain=2.0, threshold=0.5)
