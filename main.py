@@ -17,7 +17,7 @@ def execute_function():
     # time.sleep(random.randint(1, ))
     # events.clicks.click(0)
     # events.browser.open(1)
-    events.image_events.display_multiple_images()
+    # events.image_events.display_multiple_images()
     # events.typing.gibberish(40)
     
     while True:

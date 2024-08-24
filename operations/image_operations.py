@@ -4,7 +4,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 import os
 
-images = ["events/media/images/placeholder.png"]
+images = ["./media/images/placeholder.png"]
 
 def display_image_in_window():
     img_index = random.randint(0, len(images) - 1)
@@ -12,7 +12,7 @@ def display_image_in_window():
     width, height = random.randint(400, 800), random.randint(400, 800)
 
     # Construct the absolute path to the image file
-    current_dir = os.path.dirname(os.path.abspath(__file__)) + '/src/'
+    current_dir = os.path.dirname(os.path.abspath(__file__))
     image_path = os.path.join(current_dir, images[img_index])
 
     # Create a window
