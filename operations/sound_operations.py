@@ -29,6 +29,3 @@ def play_distorted_audio(file_path, gain=2.0, threshold=0.5, buffer_size=1024):
     # Play the distorted audio
     with sd.OutputStream(samplerate=fs, channels=channels, blocksize=buffer_size) as stream:
         stream.write(distorted_audio)
-
-# Example usage
-play_distorted_audio('./operations/media/audio/test.wav', gain=10.0, threshold=0.5)
