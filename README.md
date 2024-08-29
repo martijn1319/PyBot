@@ -1,6 +1,6 @@
 # PyBot
 
-PyBot is een automatiseringsbibliotheek voor Linux Ubuntu. De bibliotheek biedt verschillende functionaliteiten om taken te automatiseren, zoals:
+PyBot is een automatiseringsbibliotheek voor Windows 10 en Linux Ubuntu. De bibliotheek biedt verschillende functionaliteiten om taken te automatiseren, zoals:
 
 - **Browser openen**
 - **Klikken**
@@ -12,6 +12,8 @@ PyBot is een automatiseringsbibliotheek voor Linux Ubuntu. De bibliotheek biedt 
 ## Gebruik
 
 Alle bewerkingen kunnen worden aangeroepen in `main.py`, waar je de gewenste functies kunt uitvoeren. Standaard is er een countdown van 10 seconden ingesteld, waarna de bewerkingen worden uitgevoerd.
+
+In `main.py` wordt er voor nu een UI aangeroepen die de coordinaten van de muis laat zien en na kan lopen om het positioneren makkelijker te maken.
 
 ## Benodigde Modules
 
@@ -25,6 +27,7 @@ PyBot maakt gebruik van de volgende modules:
 - **NumPy**
 
 Deze modules zijn essentieel voor de werking van PyBot.
+
 
 ## Projectstatus
 
