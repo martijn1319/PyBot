@@ -26,9 +26,5 @@ PyBot maakt gebruik van de volgende modules:
 - **sounddevice** en **soundfile**
 - **NumPy**
 
-Deze modules zijn essentieel voor de werking van PyBot.
+Verder draait het project op Python 3.9.6.
 
-
-## Projectstatus
-
-Op dit moment is het project niet voltooid en niet bruikbaar. Er wordt nog aan gewerkt, en er zullen binnenkort updates beschikbaar zijn om het project te repareren en verder te ontwikkelen.
