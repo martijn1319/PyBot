@@ -1,30 +1,29 @@
+Here’s the translation of the README.md file into English:
+
 # PyBot
 
-PyBot is een automatiseringsbibliotheek voor Windows 10 en Linux Ubuntu. De bibliotheek biedt verschillende functionaliteiten om taken te automatiseren, zoals:
+PyBot is a program for automation written in Python 3.9.6 for Windows 10 and Linux Ubuntu. The library offers various functionalities to automate tasks such as:
 
-- **Browser openen**
-- **Klikken**
-- **Foto pop-ups**
-- **Geluiden afspelen**
-- **Typen**
-- **Volumecontrole**
+- **Opening a browser**
+- **Clicking**
+- **Photo pop-ups**
+- **Playing sounds**
+- **Typing**
+- **Volume control**
 
-## Gebruik
+## Usage
 
-Alle bewerkingen kunnen worden aangeroepen in `main.py`, waar je de gewenste functies kunt uitvoeren. Standaard is er een countdown van 10 seconden ingesteld, waarna de bewerkingen worden uitgevoerd.
+All operations can be called in `main.py`, where you can execute the desired functions. By default, there is a countdown of 10 seconds before the operations are executed.
 
-In `main.py` wordt er voor nu een UI aangeroepen die de coordinaten van de muis laat zien en na kan lopen om het positioneren makkelijker te maken.
+In `main.py`, a UI is currently called that shows the coordinates of the mouse, which helps with positioning to make it easier to track and adjust.
 
-## Benodigde Modules
+## Required Modules
 
-PyBot maakt gebruik van de volgende modules:
+PyBot uses the following modules:
 
 - **webbrowser**
 - **pyautogui**
 - **TKinter**
 - **Pillow**
-- **sounddevice** en **soundfile**
+- **sounddevice** and **soundfile**
 - **NumPy**
-
-Verder draait het project op Python 3.9.6.
-
