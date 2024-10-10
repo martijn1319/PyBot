@@ -4,7 +4,9 @@ import tkinter as tk
 from PIL import Image, ImageTk
 import os
 
-images = ["./media/images/placeholder.png"]
+directory = './media/images'
+all_files = os.listdir(directory)
+images = [file for file in all_files if file.endswith('.png')]
 
 def display_image_in_window():
     img_index = random.randint(0, len(images) - 1)
@@ -63,3 +65,5 @@ def display_multiple_images():
         window.geometry(f"{width}x{height}+{random.randint(0, 2000)}+{random.randint(0, 2000)}")
     # Start the main Tkinter event loop
     tk.mainloop()
+
+display_image_in_window()
